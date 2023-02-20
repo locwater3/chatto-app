@@ -1,3 +1,6 @@
+import Input from "./Input";
+import Messages from "./Messages";
+
 function Chat() {
   return (
     <div className="chat">
@@ -93,6 +96,8 @@ function Chat() {
           </svg>
         </div>
       </div>
+      <Messages />
+      <Input />
     </div>
   );
 }
